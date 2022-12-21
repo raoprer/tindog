@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ef8172;
+}
+
+a:hover {
+  color: #FF4C68;
+  font-style: italic;
+}
+
+/* container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* texts */
+.mainhead-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+.subhead-text {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* section colors */
+.colored-section{
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Nav bar */
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* title */
+#title .container-fluid {/* overrding container-fluid on title */
+  padding: 0.5% 15%;
+}
+
+.col-lg-6 {
+  padding-bottom: 2rem;
+}
+
+.col-md-12 {
+  padding-bottom: 5.5rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 100px
+}
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* features */
+.col-md-4 {
+  padding: 1.5rem;
+}
+
+#features {
+  position: relative;
+  padding: 7rem 0 1rem 0;
+  bottom: 6.5rem;
+}
+
+.icon {
+  padding-bottom: 1.5rem;
+  fill: #ef8172;
+  height: 7rem;
+  width: 7rem;
+}
+
+.icon:hover {
+  fill: #FF4C68;
+}
+
+.feature-info {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 1rem 0 1rem 0;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2rem;
+}
+
+.press-img {
+  width: 15%;
+  margin: 1rem;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* cta */
+.cta-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* footer */
+.footer-icon {
+  height: 2rem;
+  width: 2rem;
+  fill: grey;
+  margin: 2rem 0.5rem;
+}
+
+.footer-icon:hover {
+  fill: black;
+}
